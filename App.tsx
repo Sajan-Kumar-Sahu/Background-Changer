@@ -1,5 +1,4 @@
 import {
-  Alert,
   StatusBar,
   StyleSheet,
   Text,
@@ -26,7 +25,7 @@ const App = () => {
           <Text style={styles.buttonText}>Press me</Text>
         </View>
       </TouchableOpacity>
-        <Text selectable= {true} style={{margin:10,color:'black', fontSize:25}}>Color code: {randomColor}</Text>
+        <Text selectable= {true}style={{margin:10,color:'black', fontSize:25}}>Color code: {randomColor}</Text>
     </View>
   );
 };
